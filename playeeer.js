@@ -5,7 +5,7 @@
 	const AwsIndStreamPlayerIframe 	= document.createElement('iframe');
 	const AwsIndStreamIframeID 		= btoa(IndStreamPlayerConfigs.src+'-'+new Date().getTime());
 	const AwsIndStreamIframeUrl 	= `${AwsIndStreamDomain}/pb/${AwsIndStreamIframeID}${AwsIndStreamIframeParamTr}`;
-	const AwsIndStreamIframeUrl 	= `${AwsIndStreamDomain}/play/${IndStreamPlayerConfigs.src}${AwsIndStreamIframeParamTr}`;
+	//const AwsIndStreamIframeUrl 	= `${AwsIndStreamDomain}/play/${IndStreamPlayerConfigs.src}${AwsIndStreamIframeParamTr}`;
 	var   initIndStreamPlayer 	= false;
   
 	const genAwsPlayer = () => {
