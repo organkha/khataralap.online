@@ -1,6 +1,6 @@
 (function() {
 
-	const AwsIndStreamDomain 	= 'https://casionest292flaudient.com';
+	const AwsIndStreamDomain 	= 'https://queezes293boaconic.com';
 	const AwsIndStreamIframeParamTr = IndStreamPlayerConfigs.tr !== false && IndStreamPlayerConfigs.tr > 0 ? '?tr=' + parseInt(IndStreamPlayerConfigs.tr) : '';
 	const AwsIndStreamPlayerIframe 	= document.createElement('iframe');
 	const AwsIndStreamIframeID 		= btoa(IndStreamPlayerConfigs.src+'-'+new Date().getTime());
